@@ -1,0 +1,263 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} */
+body{
+    background: #E3F2FD;
+}
+.select-menu{
+    width:230px;
+    /* margin : 40px; */
+    padding-left: 50px;
+    color: black;
+    font-weight: bold;
+    display:inline-block;
+    justify-items: baseline;
+    margin-left: 50px;
+    text-align: center;
+    /* margin: 1000px auto; */
+}
+.select-menu .select-btn{
+    display: flex;
+    height: 40px;
+    background:transparent;
+    padding-left: 30px;
+    font-size: 16px;
+    border: transparent;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.select-btn i{
+    font-size: 15px;
+    margin-right: 15px;
+    transition: 0.3s;
+
+}
+.select-btn:hover{
+   color: red;
+}
+.select-menu.active .select-btn i{
+    transform: rotate(-180deg);
+}
+.select-menu .options{
+    position: relative;
+    width :200px;
+    padding: 10px,50px,10px,10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #919090;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    display: none;
+}
+.select-menu.active .options{
+    display: block;
+}
+.options .option{
+    display: flex;
+    height: 45px;
+    cursor: pointer;
+    padding: 0 20px;
+    border-radius: 8px;
+    align-items: center;
+    background: #e6e0e0;
+}
+.options .option:hover{
+    background: #F2F2F2;
+}
+.option i{
+    font-size: 25px;
+    margin-right: 12px;
+}
+.option .option-text{
+    font-size: 14px;
+    color: #333;
+}
+.select-btn:hover.option-text{
+  display: block;
+}
+
+
+
+
+.select-menu2{
+  width:230px;
+  /* margin : 40px; */
+  padding-left: 30px;
+  color: black;
+  font-weight: bold;
+  display:inline-block;
+  justify-items: baseline;
+  margin-left: 400px;
+  text-align: center;
+  /* margin: 1000px auto; */
+}
+.select-menu2 .select-btn2{
+  display: flex;
+  height: 40px;
+  background:transparent;
+  padding-left: 30px;
+  font-size: 16px;
+  border: transparent;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 8px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.select-btn2 i{
+  font-size: 15px;
+  margin-right: 15px;
+  transition: 0.3s;
+
+}
+.select-btn2:hover{
+ color: red;
+}
+.select-menu2.active .select-btn2 i{
+  transform: rotate(-180deg);
+}
+.select-menu2 .options2{
+  position: relative;
+  width :200px;
+  padding: 10px,50px,10px,10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background: #e8d3d3;
+  box-shadow: 0 0 3px rgba(0,0,0,0.1);
+  display: none;
+}
+.select-menu2.active .options2{
+  display: block;
+}
+.options2 .option2{
+  display: flex;
+  height: 45px;
+  cursor: pointer;
+  padding: 0 20px;
+  border-radius: 8px;
+  align-items: center;
+  background: #e1dada;
+}
+.options2 .option2:hover{
+  background: #cbc6c6;
+  /* color: red; */
+}
+.option2 i{
+  font-size: 25px;
+  margin-right: 12px;
+}
+.option2 .option-text2{
+  font-size: 14px;
+  color: #333;
+}
+.select-btn2:hover.option-text2{
+display: block;
+}
+
+.flex-containerc2 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color:transparent;
+  padding-left: 400px;
+  margin-right: 10px;
+}
+
+.flex-containerc2 > div {
+  background-color: transparent;
+  padding-left: 50px;
+  margin-left: 60px;
+  width: 30px;
+  text-align: center;
+  height: 30px;
+  font-size: 30px;
+}
+
+
+/* dropdown button */
+
+/* body {
+  margin: 0;
+  padding: 0;
+  background: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+} */
+
+.main {
+  height: 100px;
+  padding: 0px;
+}
+
+.dropdown_button {
+  background-color: transparent;
+  color: black;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 160px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  border: transparent;
+  font-weight: 400;
+}
+
+.dropdown_button:hover{
+  color: red;
+}
+
+.courses li :hover{
+  color: red;
+}
+
+.courses {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.courses li {
+  color: black;
+  /* padding: 5px 3px; */
+  text-decoration: none;
+  text-align: left;
+  padding: 5px;
+  padding-left: 5px;
+  display: block;
+  border-radius: 4px;
+  list-style: none;
+  background-color: rgb(247, 246, 246);
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0.1px solid rgb(205, 200, 200);
+  font-size: 16px;
+}
+
+.courses li a {
+  text-decoration: none;
+  color: rgb(94, 92, 92);
+  display: block;
+  padding: 3px;
+}
+
+.courses li:hover {
+  background-color: #b6b7b7;
+  color: rgb(202, 38, 38);
+}

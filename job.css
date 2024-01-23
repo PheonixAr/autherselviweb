@@ -1,0 +1,54 @@
+.aunthentication{
+    height:500px;
+    width:100%;
+    align-items: center;
+    justify-items: center;
+}
+.loginpage{
+    padding: 100px;
+}
+.form{
+    display: block;
+    padding-left: 425px;
+    padding-top: 20px;
+    align-items: center;
+}
+label{
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+input{
+    justify-items: center;
+    align-items: left;
+    text-align: left;
+}
+
+
+/* loginpage */
+.userauthn{
+    height:500px;
+    width:100%;
+    align-items: center;
+    justify-items: center;
+    padding: 100px;
+    padding-top: 150px;
+    background-color: aliceblue;
+    /* text-align: center; */
+}
+
+.loginform{
+    display: block;
+    padding-left: 425px;
+    padding-top: 20px;
+    align-items: center;
+}
+.loginform label{
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+.loginform input{
+    justify-items: center;
+    align-items: left;
+    text-align: left;
+}
+
